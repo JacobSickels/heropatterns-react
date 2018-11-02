@@ -1,13 +1,17 @@
 import * as React from 'react';
 
 export interface HeroPatternProps {
-    test: string;
+    width?: number;
+    height?: number;
+    foregroundColor?: string;
+    foregroundOpacity?: number;
+    backgroundColor?: string;
 }
 
-declare class HeroPattern extends React.Component<HeroPatternProps, any> {}
+declare class Jigsaw extends React.Component<HeroPatternProps, any> {}
 
 declare module 'hero-pattern' {
 
 }
 
-export default HeroPattern;
+export { Jigsaw };
