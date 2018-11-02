@@ -1,0 +1,1 @@
+# HeroPatterns for React
