@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export interface HeroPatternProps {
+export interface HeroPatternProps extends React.Props<Jigsaw> {
     width?: number;
     height?: number;
     foregroundColor?: string;
@@ -10,8 +10,8 @@ export interface HeroPatternProps {
 
 declare class Jigsaw extends React.Component<HeroPatternProps, any> {}
 
-declare module 'hero-pattern' {
+declare module 'heropatterns-react' {
 
 }
 
-export { Jigsaw };
+export default Jigsaw;
