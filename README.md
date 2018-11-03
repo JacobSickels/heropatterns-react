@@ -1,6 +1,6 @@
 # HeroPatterns for React
 
-<h1><a href="http://www.heropatterns.com/">Hero Paterns</a></h1>
+<h1><a href="http://www.heropatterns.com/">Hero Patterns</a></h1>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/heropatterns-react">
