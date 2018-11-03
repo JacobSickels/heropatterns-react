@@ -11,7 +11,7 @@ export const Jigsaw = ({
     <svg height={height} width={width}>
         <defs>
             <pattern
-                id="basicPattern"
+                id="jigsawPattern"
                 x="0"
                 y="0"
                 width="192"
@@ -33,11 +33,11 @@ export const Jigsaw = ({
             </pattern>
         </defs>
         <rect
-            x="10"
-            y="10"
+            x="0"
+            y="0"
             width={width}
             height={height}
-            fill="url(#basicPattern)"
+            fill="url(#jigsawPattern)"
         />
     </svg>
 );
