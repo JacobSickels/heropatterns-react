@@ -1,13 +1,13 @@
 {
   "name": "heropatterns-react",
-  "version": "1.0.21",
+  "version": "1.0.23",
   "description": "React components for HeroPatterns",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "rm -rf ./lib && tsc",
+    "build": "tsc",
     "prepare": "yarn build",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"

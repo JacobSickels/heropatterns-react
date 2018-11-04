@@ -20,6 +20,15 @@ declare class FormalInvitation extends React.Component<
     any
 > {}
 
+export interface TopographyProps extends React.Props<HeroPatternProps> {}
+declare class Topography extends React.Component<TopographyProps, any> {}
+
+export interface TextureProps extends React.Props<HeroPatternProps> {}
+declare class Texture extends React.Component<TextureProps, any> {}
+
+export interface JupiterProps extends React.Props<HeroPatternProps> {}
+declare class Jupiter extends React.Component<JupiterProps, any> {}
+
 declare module 'heropatterns-react' {
 
 }
