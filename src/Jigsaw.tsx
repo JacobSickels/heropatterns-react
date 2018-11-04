@@ -41,5 +41,3 @@ export const Jigsaw = ({
         />
     </svg>
 );
-
-export default Jigsaw;
